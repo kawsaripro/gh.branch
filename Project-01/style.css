@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size:50px;
+}
+
+p{
+    color: dimgray;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin: left 10px; 
+    padding-left: 7%;
+}
+.half-width img{
+    width:100%;
+}
+.top-banner{
+        
+        background-image: url(developer-portfolio/top-banner.png);
+        background-repeat: no-repeat;
+}
+.link-button{
+   text-decoration: none;
+   background-image: linear-gradient( 45deg, red, rgb(231, 81, 22));
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: white;
+   font-weight: 700;
+}
+section{
+    height: 500px;
+}
+.dream-text{
+    width: 40%;
+    float:left;
+    margin: left 10px; 
+    padding-left: 5%;
+}
+.dream-text img{
+    width: 100%;
+}
+#dream{
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 20px;
+}
+.exp-header{
+    margin: left 20px;
+}
+.exp-h{
+    color:orange;
+}
+.exp-box-1{
+    width: 40%;
+    float:left;
+    margin: left 10px; 
+    padding-left: 5%;
+}
+.exp-1{
+        width: 40%;
+        margin: 10px 5px 5px 50px;
+        box-shadow: 10px 10px 40px gray ;
+        border-radius: 10px;
+         height: 300px;
+         background-color: white;
+    }
+.exp-area{
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}    
+#Design-color{
+    border-left: 7px solid;
+    border-image: linear-gradient( 100deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#Design-color-2{
+    border-left: 7px solid;
+    border-image: linear-gradient( 100deg, blue,cyan );
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
